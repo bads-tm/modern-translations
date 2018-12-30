@@ -20,6 +20,9 @@ return [
     "follow"				=> "Follow",
     "unfollow"				=> "Unfollow",
 
+    "current_language"      => "<h3>Your Language is <span style=\"text-decoration:underline\">[language]</span></h3>
+                                <div>You can change the language of Vlare in <a href=\"/settings\">Settings</a> if you want!</div>",
+
 
     // Channel Types
 
@@ -113,23 +116,23 @@ return [
     // Modals (Pop-Ups)
 
     "modal_sign_signin"         => "Sign In",
-    "modal_sign_signin_text"    => "Sign into an existing VidLii account.",
+    "modal_sign_signin_text"    => "Sign into an existing Vlare account.",
     "modal_sign_signin_email"   => "E-Mail",
     "modal_sign_signin_password"=> "Password",
     "modal_sign_signin_button"  => "SIGN IN",
-    "modal_sign_signin_new"     => "New to VidLii?",
+    "modal_sign_signin_new"     => "New to Vlare?",
     "modal_sign_signin_forgot"  => "Forgot your Password?",
     "modal_sign_signin_forgot_!"=> "Reset it",
 
     "modal_sign_signup"         => "Sign Up",
-    "modal_sign_signup_text"    => "Create a new Vidlii account.",
+    "modal_sign_signup_text"    => "Create a new Vlare account.",
     "modal_sign_signup_name"    => "Display Name",
     "modal_sign_signup_name_no"	=> "Display Names can't contain: (' \ / < >)",
     "modal_sign_signup_email"   => "E-Mail",
     "modal_sign_signup_pass1"   => "Password",
     "modal_sign_signup_pass2"   => "Repeat Password",
     "modal_sign_signup_contin"  => "CONTINUE",
-    "modal_sign_signup_already" => "Already have a Vidlii account?",
+    "modal_sign_signup_already" => "Already have a Vlare account?",
     "modal_sign_signup_birth"   => "Your Birthday",
     "modal_sign_signup_who"     => "Who are you?",
     "modal_sign_signup_country" => "What's your Country?",
@@ -230,13 +233,13 @@ return [
 
     // Trending Channels
 
-    "trendingchannels_top_registration" => "Registration",
-    "trendingchannels_top_last"         => "Letztes Login",
+    "trendingchannels_top_registration" => "Signed Up",
+    "trendingchannels_top_last"         => "Last Login",
     "trendingchannels_top_videos"       => "Videos",
-    "trendingchannels_top_views"        => "Video Aufrufe",
+    "trendingchannels_top_views"        => "Video Views",
     "trendingchannels_top_followers"    => "Followers",
-    "trendingchannels_top_following"    => "Folgt",
-    "trendingchannels_top_friends"      => "Freunde",
+    "trendingchannels_top_following"    => "Following",
+    "trendingchannels_top_friends"      => "Friends",
 
     "trendingchannels_title"            => "Trending Everywhere (Click to Play)",
     "trendingchannels_title2"           => "Trending in [category]en (Click to Play)",
@@ -552,14 +555,14 @@ return [
     // Settings
 
     "settings_attention_up"     => "Attention",
-    "settings_attention"        => "Since these settings don't require you to be logged in, we use cookies to identify who you are and what settings you use. So if you clear cookies through your browser, your settings on VidLii will also disappear.",
+    "settings_attention"        => "Since these settings don't require you to be logged in, we use cookies to identify who you are and what settings you use. So if you clear cookies through your browser, your settings on Vlare will also disappear.",
     "settings_visual"           => "Visual Settings",
     "settings_technical"        => "Technical Settings",
     "settings_language"         => "Language",
     "settings_light"            => "Light Mode",
     "settings_dark"             => "Dark Mode",
     "settings_feather_up"       => "Feather Mode",
-    "settings_feather"          => "Feather mode allows you to watch VidLii videos seamlessly even on the least powerful devices by making it very lightweight.",
+    "settings_feather"          => "Feather mode allows you to watch Vlare videos seamlessly even on the least powerful devices by making it very lightweight.",
     "settings_mobile_up"        => "Mobile Scaling",
     "settings_mobile"           => "If disabled, it shows the pages on mobile as if you used a desktop computer.",
     "settings_turbo_up"         => "Turbo Loading",
@@ -806,7 +809,7 @@ return [
 
     // Guidelines
     "guide_nudity"				=> "Nudity & Sexual Content",
-    "guide_nudity_txt"			=> "VidLii isn't a porn site. Sorry to disappoint you if you were looking for one and got here by accident. This means that sexual acts or full-nudity for non-educational purposes aren't allowed. The same counts for animation!<br> We especially don't allow anything sexual related to kids and we will forward it to law inforcement if it ever comes to that.",
+    "guide_nudity_txt"			=> "Vlare isn't a porn site. Sorry to disappoint you if you were looking for one and got here by accident. This means that sexual acts or full-nudity for non-educational purposes aren't allowed. The same counts for animation!<br> We especially don't allow anything sexual related to kids and we will forward it to law inforcement if it ever comes to that.",
 
     "guide_danger"				=> "Shocking/Dangerous Content",
     "guide_danger_txt"			=> "Content which is just meant to shock you isn't allowed either. (Beheadings, suicides, murders etc.). Reporting on such acts and showing for American-TV appropriate footage is fine.<br>We also don't allow videos that encourage dangerous things especially when the target of encouragement are young people.",
@@ -824,19 +827,19 @@ return [
     "guide_advert_txt"			=> "Advertisements for Services or Websites in video or comment form unless they're a direct reply to someone not related to that website/service aren't allowed.",
 
     "guide_bans"				=> "Bans & Blocks",
-    "guide_bans_txt"			=> "After you've been banned or blocked by someone, you aren't allowed to own or sign into any VidLii accounts that have been created after you've been banned or blocked even if it has been created by someone else.<br>People that give you access may be punished the same way you were.",
+    "guide_bans_txt"			=> "After you've been banned or blocked by someone, you aren't allowed to own or sign into any Vlare accounts that have been created after you've been banned or blocked even if it has been created by someone else.<br>People that give you access may be punished the same way you were.",
 
-    "guide_community"			=> "VidLii is for the community!",
+    "guide_community"			=> "Vlare is for the community!",
     "guide_community_txt"		=> "
     								<div>
-						                <div>Remember that this is your community! Each and every user of VidLii makes the site what it is, so don't be afraid to dig in and get involved!</div>
+						                <div>Remember that this is your community! Each and every user of Vlare makes the site what it is, so don't be afraid to dig in and get involved!</div>
 						                <ul style=\"line-height:22px\">
 						                    <li>Have fun with the site. There's a lot to see here, and lots of folks making amazing stuff one of them might be you! Equipment's getting cheaper and easier to use all the time, so dive in and enjoy.</li>
 						                    <li>If you feel like someone is breaking the rules don't be afraid to report them. They will not know who reported them</li>
-						                    <li>Following the rules makes VidLii a better experience for everyone.</li>
+						                    <li>Following the rules makes Vlare a better experience for everyone.</li>
 						                </ul>
 						                <div style=\"margin-bottom:8px\">That's it! Thanks for reading!</div>
-						                <div>~ The Vidlii Moderation</div>
+						                <div>~ The Vlare Moderation</div>
 						            </div>
 	",
 	// Account
@@ -874,8 +877,8 @@ return [
     "dash_customize_comments"   => "Video Comments",
     "dash_customize_stats"      => "Statistics This Week",
     "dash_customize_notif"      => "Notifications",
-    "dash_customize_blog"       => "VidLii Blog",
-    "dash_customize_tips"       => "VidLii Tips & Tricks",
+    "dash_customize_blog"       => "Vlare Blog",
+    "dash_customize_tips"       => "Vlare Tips & Tricks",
 
     "dash_no_comments"          => "You have no comments",
     "dash_no_notifications"     => "You have no notifications",
@@ -885,10 +888,10 @@ return [
     "dash_stats_followers"      => "Followers",
     "dash_stats_comments"       => "Comments",
 
-    "dash_notif1"               => "Gemeinschafts Strike",
+    "dash_notif1"               => "Community Strike",
     "dash_notif2"               => "Copyright Strike",
-    "dash_notif3"               => "Warnung",
-    "dash_notif4"               => "Benachrichtigung",
+    "dash_notif3"               => "Alert",
+    "dash_notif4"               => "Notification",
 
     "dash_tip1"                 => "<h3>An eye for Statistics</h3>
                                     <div>
@@ -900,7 +903,7 @@ return [
                                     </div>",
     "dash_tip3"                 => "<h3>Share your videos</h3>
                                     <div>
-                                      Sharing your videos with people outside of VidLii not only increases your view count, it also creates new potential members and followers.
+                                      Sharing your videos with people outside of Vlare not only increases your view count, it also creates new potential members and followers.
                                     </div>",
 
     "dash_comment_on"           => "On [title]"
